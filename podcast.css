@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4dcf2;
+    padding: 1vw;
+    font-size: calc(4px + 1.5vw);
+    border-bottom-style: double;
+    border-bottom-width: 2px;
+    color: black;
+    border-color: black;
+    text-align: center;
+}
+
+.red-letter {
+    color: darkred;
+}
+
+a{
+    color: darkred;
+}
+
+.titleclass{
+    width:350px;
+    height:350px;
+}
+#titleimg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: 5px solid darkred;
+    margin-top: 1.5%;
+    position: absolute;
+    width: 20vw;
+    height: calc(20vw * 0.999999999 / 1);
+}
+
+#page-wrapper{
+    font-family: "Jaro", "Courier New", monospace;
+    width: 100%;
+    background-color: #f4dcf2;
+    font-size:calc(8px + 1.5vw);
+}
+
+#nav{
+    color: black;
+    background-color: lightgray;
+    padding: 1%;
+}
+
+.hostintro{
+    padding: 1% 10%;
+    text-align: center;
+    font-size: calc(2px + 1.5vw);
+}
+
+.hostoutro{
+    padding: 1% 0 0 0;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+}
+
+.speechContent{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.speech-img{
+    max-width:40%;
+}
+
+.speech{
+    width:70%;
+    padding:0 0 0 1vw;
+    margin: 1vw;
+    font-size:calc(2px + 1.5vw);
+    font-family: "Lucida Console", "Times New Roman", monospace;
+}
+
+#main{
+    color: black;
+    background-color: lightgrey;
+    padding: 1%;
+}
+
+.h1{
+    color: darkred;
+    text-align: center;
+    padding: 0;
+    font-size:calc(15px + 2vw);
+    font-family: "Lucida Console", "Times New Roman", monospace;
+}
+
+
+
+
+
+#comp-cont{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+#photo1 {
+    background-image: url(src/duck.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    right: 5%;
+    outline: 5px solid darkred;
+    margin-top: 3%;
+    position: absolute;
+    width: 25vw;
+    height: calc(25vw * 0.999999999 / 1);
+}
+
+#photo1:hover .talk{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#photo2 {
+    background-image: url(src/apple.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: 5px solid darkred;
+    margin-top: 3%;
+    position: absolute;
+    width: 25vw;
+    height: calc(25vw * 0.999999999 / 1);
+}
+
+#photo2:hover .talk{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#photo3 {
+    background-image: url(src/bean.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    left: 5%;
+    outline: 5px solid darkred;
+    margin-top: 3%;
+    position: absolute;
+    width: 25vw;
+    height: calc(25vw * 0.999999999 / 1);
+}
+
+#photo3:hover .talk{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.talk{
+    opacity: 0;
+    transition: opacity 2s;
+    text-align: center;
+    background-color: #f4dcf2;
+    color: black;
+    height: fit-content;
+    padding: 1% 0;
+    font-size: calc(2px + 1.425vw);
+}
+
+
+#audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    positon: relative;
+}
+
+.podcastlink {
+    text-align: center;
+    font-size: calc(4px + 1.5vw);
+    margin-top: 0px;
+    padding: 0 0 0 1vw;
+    font-weight: bold;
+}
+
+#exit{
+    background-color: #f4dcf2;
+}
+
+#footer{
+    font-size:calc(4px + 1vw);
+    margin-top: 2%;
+    padding: 3%;
+    text-align: center;
+    background-color: #f4dcf2;
+    color: black;
+}
+
+footer{
+    background-color: #f4dcf2;
+    font-size: calc(2px + 1.1vw);
+    color: black;
+    padding: 1vh 1vw;
+    margin-top: 1%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: darkred;
+    font-weight: bold;
+}
+
+#time-date{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    color: darkred;
+    font-size: calc(1px + 1vw);
+}
